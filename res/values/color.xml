@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 列表条目的点击效果颜色 -->
+    <color name="white">#ffffff</color>
+    <!-- 导航字母颜色 -->
+    <color name="common_navigation_letters_color">#6a6a6a</color>
+        <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- 项目主体颜色 -->
+    <color name="bg_gery_color">#eeeeee</color>
+    <color name="text_green_color">#75b11d</color>
+        <!-- 预售、现货 title的背景颜色 -->
+    <color name="yushou_xianhuo_title_bg_color">#70b01e</color>
+        <color name="text_hint_color">#b8b8b8</color>
+            <color name="transparent">#00000000</color>
+                <color name="comment_text_color">#333333</color>
+                    <!-- 分隔线颜色 -->
+    <color name="common_page_line_divider">#dddddd</color>
+</resources>

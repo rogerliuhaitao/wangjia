@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 企业通讯录 按首字母分组 -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- 内容  （带字母导航） -->
+        <LinearLayout
+            android:id="@+id/FragmentContactsByAlphabet_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/costom_title_layout"/>
+	        <LinearLayout
+	            android:id="@+id/FragmentContactsByAlphabet_IndicatorView"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical"
+	            android:visibility="visible"/>
+	        <!-- 获取数据异常的显示页面 -->
+	        <include layout="@layout/service_exception_layout"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

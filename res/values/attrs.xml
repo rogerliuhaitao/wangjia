@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GifMoviewView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifMoviewViewStyle" format="reference" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="SaundProgressBar">
+	  <attr name="progressIndicator" format="reference" />
+	  <attr name="textSize" format="dimension" />
+	  <attr name="textColor" format="reference|color" />
+	  <attr name="textStyle">
+      <flag name="normal" value="0" />
+      <flag name="bold" value="1" />
+      <flag name="italic" value="2" />
+    </attr>
+	  <attr name="textAlign">
+	    <flag name="left" value="0" />
+      <flag name="center" value="1" />
+      <flag name="right" value="2" /> 
+	  </attr>
+	  <attr name="offset" format="dimension" />
+	</declare-styleable>
+	
+    <!-- 自定义的圆角ImageView的自定义属性。 -->
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+    <!-- 地址选择器 -->
+        <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+
+</resources>

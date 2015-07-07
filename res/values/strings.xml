@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">网加+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_load_ing">数据加载中\u2026</string>
+    
+    <string name="service_nodata_info">没有数据，请稍后再试！</string>
+    <string name="service_error_info">服务器异常，请稍后再试！</string>
+    <string name="service_nonetwork_info">网络暂时不可用，请稍后再试！</string>
+    
+</resources>

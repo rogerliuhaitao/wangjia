@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants">
+	<!-- 企业通讯录  按首字母分组  列表  item内容 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/selector_bg_white_gray">
+        <!-- 联系人头像 -->
+	    <com.online.wangjialife.widget.selectcity.ImageViewWidget
+	        android:id="@+id/ItemBusinessContactsListContent_HeadProtrait"
+	        android:layout_width="@dimen/contact_headportrait_height"
+	        android:layout_height="@dimen/contact_headportrait_height"
+	        android:scaleType="fitCenter"
+	        android:layout_margin="10dp"
+	        android:background="@color/transparent"
+	        android:visibility="gone"/>
+	    <!-- 联系人姓名 -->
+	    <TextView 
+	        android:id="@+id/ItemBusinessContactsListContent_ContactName"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:singleLine="true"
+	        android:text="张三"
+	        android:textColor="@color/comment_text_color"
+	        android:textSize="15sp"
+	        android:layout_margin="10dp"/>
+    </LinearLayout>
+    <!-- 底部灰色分割线 -->
+    <ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="0.7dp"
+	    android:background="@color/transparent"
+	    android:src="@color/common_page_line_divider"/>
+</LinearLayout>
