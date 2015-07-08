@@ -61,6 +61,7 @@ public class ChooseCityActivity extends BaseActivity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.choose_city_layout);
 		init();
+		showLoadingProgressBar();
 		//请求数据
 //		new getDataAsyncTask().execute("");
 	}

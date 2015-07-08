@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 
+import com.online.wangjialife.R;
 import com.online.wangjialife.control.MyApplication;
 import com.online.wangjialife.widget.LoadingDialog;
 
@@ -22,7 +23,7 @@ public abstract class BaseActivity extends Activity{
 	protected void showLoadingProgressBar() {
 		if (loadingDialog == null) {
 			// TODO 自定义所需要的样式
-			loadingDialog = new LoadingDialog(this);
+			loadingDialog = new LoadingDialog(this,R.style.dialog);
 		}
 		loadingDialog.show();
 	}

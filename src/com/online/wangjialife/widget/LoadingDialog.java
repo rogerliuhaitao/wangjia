@@ -19,8 +19,8 @@ public class LoadingDialog extends AlertDialog {
 
     private String message = null;
 
-    public LoadingDialog(Context context) {
-        super(context);
+    public LoadingDialog(Context context, int theme) {
+        super(context,theme);
         message = getContext().getResources().getString(R.string.msg_load_ing);
     }
 

@@ -88,7 +88,8 @@ int drawable indicator_bg_top 0x7f02000a
 int drawable loading 0x7f02000b
 int drawable net_error_icon 0x7f02000c
 int drawable selector_bg_white_gray 0x7f02000d
-int drawable top_backbtn 0x7f02000e
+int drawable tips_bg 0x7f02000e
+int drawable top_backbtn 0x7f02000f
 int id FragmentContactsByAlphabet_Content 0x7f050014
 int id FragmentContactsByAlphabet_IndicatorView 0x7f050015
 int id ItemBusinessContactsListContent_ContactName 0x7f05001b
@@ -166,6 +167,7 @@ int string service_nonetwork_info 0x7f07000c
 int style AppBaseTheme 0x7f090000
 int style AppTheme 0x7f090001
 int style Widget_GifMoviewView 0x7f090002
+int style dialog 0x7f090003
 int[] styleable CustomTheme { 0x7f010015 }
 int styleable CustomTheme_gifMoviewViewStyle 0
 int[] styleable GifMoviewView { 0x7f010013, 0x7f010014 }
